@@ -1,0 +1,8 @@
+<h1> Movie Homepage</h1>
+<ul>
+<% @titles.each do |title| %>
+<li>
+  <a href='/movie/<%=title%>'><%=title %></a>
+</li>
+<% end %>
+</ul>
